@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>springboot_helloworld</name>
+	<name>springboot_rabbitmq_helloworld</name>
 	<comment></comment>
 	<projects>
 	</projects>

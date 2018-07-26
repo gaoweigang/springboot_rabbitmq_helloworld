@@ -1,20 +1,13 @@
-spring.profiles.active: dev
 
-person:
-     name:
-                      高伟刚1
-                      
-my:
-  servers:
-        - dev.bar.com
-        - foo.bar.com
-  mother:
-        LiuJinJu
-  first-name:
-        GAO
-        
-connection:
-    username: admin
-    #remoteAddress: 192.168.1.1
-
-       
+spring:
+     application:
+          name: spirng-boot-rabbitmq
+     rabbitmq:
+          host: 192.168.13.64
+          port: 5672
+          username: hbsit
+          password: hbsit
+          virtual-host: /hbsit
+          #exchange: EXCHANGE_DIRECT_ORDER_MARKET 
+          #queue: QUEUE_ISSUED_NAME_LIST
+          #bean: rabbitTemplate      
